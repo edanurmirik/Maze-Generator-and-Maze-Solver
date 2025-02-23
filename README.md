@@ -1,32 +1,24 @@
-# 🤖 Gezgin Robot Projesi
+#  Robot Project
 
-Bu proje, **Java** programlama dili kullanılarak geliştirilen bir **labirent çözme simülasyonu**dur. Proje, nesneye yönelik programlama ve veri yapıları bilgisini pekiştirmek amacıyla tasarlanmıştır. İki farklı problem üzerinde çalışılarak algoritmaların uygulamalı kullanımı sağlanmıştır.
+This project is a maze-solving simulation developed using the Java programming language. The project is designed to reinforce knowledge of object-oriented programming and data structures. By working on two different problems, the practical application of algorithms is demonstrated.
 
-## 🚀 Özellikler
+##  Features
 
-- 🔍 **Problem 1:**  
-  - Harici bir URL'den alınan labirent verilerini okur.  
-  - Başlangıç ve bitiş noktaları arasında **Breadth-First Search (BFS)** algoritması ile en kısa yolu bulur.  
-  - Harita üzerinde engelleri ve yolları görsel olarak gösterir.
+-  **Problem 1:**  
+  - Reads maze data from an external URL.
+  - Finds the shortest path between the start and end points using the Breadth-First Search (BFS) algorithm.
+  - Visually displays obstacles and paths on the map.
 
-- 🧩 **Problem 2:**  
-  - Rastgele boyutlarda bir labirent oluşturur.  
-  - **Depth-First Search (DFS)** algoritması kullanarak başlangıç ve bitiş noktaları arasında bir çözüm yolu bulur.  
-  - Ziyaret edilen ve edilmeyen yolları farklı renklerle gösterir.
+-  **Problem 2:**  
+  - Generates a maze of random size.
+  - Finds a solution path between the start and end points using the Depth-First Search (DFS) algorithm.
+  - Shows visited and unvisited paths in different colors.
 
-- 📊 **Optimizasyon**:  
-  - DFS ve BFS algoritmaları arasındaki farkları görselleştirir.  
-  - Rastgele oluşturulan labirentlerde çözüm yolu ve ziyaret edilen yolların analizi yapılır.
+-  **Optimization**:  
+  - Visualizes the differences between DFS and BFS algorithms.
+  - Analyzes the solution path and visited paths in randomly generated mazes.
 
-## 🛠️ Kullanılan Teknolojiler
+## Technologies 
 
-- **Java** – Proje geliştirme dili  
-- **Swing** – Grafiksel kullanıcı arayüzü (GUI)  
-- **Nesneye Yönelik Programlama** – Sınıflar ve kalıtım  
-- **Veri Yapıları** – Stack, Queue, ArrayList  
+The project is developed using Java. For the Graphical User Interface (GUI), Swing is used to create a user-friendly interface to visualize the maze and the solving process. The project follows the principles of Object-Oriented Programming, utilizing concepts like classes and inheritance to structure the code efficiently. Additionally, various data structures such as Stack, Queue, and ArrayList are employed to handle the maze traversal algorithms and store the necessary data during the solving process.
 
-## 📋 Kurulum
-
-1. Bu depoyu klonlayın:
-   ```bash
-   git clone https://github.com/kullaniciadi/gezgin-robot.git
