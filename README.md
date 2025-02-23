@@ -4,17 +4,17 @@ This project is a maze-solving simulation developed using the Java programming l
 
 ##  Features
 
--  **Problem 1:**  
+  **Problem 1:**  
   - Reads maze data from an external URL.
   - Finds the shortest path between the start and end points using the Breadth-First Search (BFS) algorithm.
   - Visually displays obstacles and paths on the map.
 
--  **Problem 2:**  
+  **Problem 2:**  
   - Generates a maze of random size.
   - Finds a solution path between the start and end points using the Depth-First Search (DFS) algorithm.
   - Shows visited and unvisited paths in different colors.
 
--  **Optimization**:  
+  **Optimization**:  
   - Visualizes the differences between DFS and BFS algorithms.
   - Analyzes the solution path and visited paths in randomly generated mazes.
 
